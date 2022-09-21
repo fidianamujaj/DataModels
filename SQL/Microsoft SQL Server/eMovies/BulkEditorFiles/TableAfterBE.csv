@@ -1,0 +1,18 @@
+ERwin Property Ids,1075850516::User Formatted Name  [read only],0::Object Type  [read only],1073742125::Definition,1073742126::Name,1075849148::Comments,1075849176::Physical Name
+1075838979::139,Employee,Table,EMPLOYEE is a person that works for the VIDEO STORE,Employee,EMPLOYEE is a person that works for the VIDEO STORE,Employee
+1075838979::141,Movie,Table,A MOVIE is any video that can be rented,Movie,A MOVIE is any video that can be rented,Movie
+1075838979::143,Store,Table,A STORE is one of the MOVIE STORES where a customer can rent a movie,Store,A STORE is one of the MOVIE STORES where a customer can rent a movie,Store
+1075838979::158,Movie Rent,Table,A MOVIE RENT is a record of a Movie Copy that is rented in a Store,MovieRent,A MOVIE RENT is a record of a Movie Copy that is rented in a Store,MovieRent
+1075838979::160,Movie Copy,Table,A MOVIE COPY is a single copy of a MOVIE,MovieCopy,A MOVIE COPY is a single copy of a MOVIE,MovieCopy
+1075838979::242,Customer,Table,A CUSTOMER is a person or organization who has rented a movie within the past year.,Customer,A CUSTOMER is a person or organization who has rented a movie within the past year.,Customer
+1075838979::338,Payment,Table,A PAYMENT is received when a customer rents a movie,Payment,A PAYMENT is received when a customer rents a movie,Payment
+1075838979::744,Address,Table,An ADDRESS is the street and street number of a CITY,Address,An ADDRESS is the street and street number of a CITY,Address
+1075838979::751,State,Table,A STATE is a location in a country or a name of a country itself.,State,A STATE is a location in a country or a name of a country itself.,State
+1075838979::757,City,Table,A CITY is a location within a state.,City,A CITY is a location within a state.,City
+1075838979::812,Payment Method,Table,A PAYMENT METHOD is a method in which the payment is made.,PaymentMethod,A PAYMENT METHOD is a method in which the payment is made.,PaymentMethod
+1075838979::823,Credit Card,Table,A CREDIT CARD is a payment method using a card.,CreditCard,A CREDIT CARD is a payment method using a card.,CreditCard
+1075838979::826,Check,Table,A CHECK is a payment method using a check.,Check,A CHECK is a payment method using a check.,Check
+1075838979::829,Epay,Table,An EPAY is a payment method done electronically.,Epay,An EPAY is a payment method done electronically.,Epay
+1075838979::878,Director,Table,A DIRECTOR is a person that directed a movie.,Director,A DIRECTOR is a person that directed a movie.,Director
+1075838979::881,Actor,Table,An ACTOR is a person that plays in a movie.,Actor,An ACTOR is a person that plays in a movie.,Actor
+1075838979::893,Cast,Table,CAST is a collection of actors that play in a movie,Cast,CAST is a collection of actors that play in a movie,Cast
