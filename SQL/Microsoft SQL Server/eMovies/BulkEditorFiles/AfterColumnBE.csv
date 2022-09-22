@@ -1,0 +1,80 @@
+ERwin Property Ids,1075850516::User Formatted Name  [read only],0::Object Type  [read only],1073742125::Definition,1073742126::Name,1075849136::Parent Attribute  [read only],1075849137::Parent Relationship  [read only],1075849148::Comments,1075849176::Physical Name
+1075838981::145,Employee First Name,Column,Employee’s name,Employee First Name,,,Employee’s name,FirstName
+1075838981::147,Employee Phone,Column,Employee’s home phone number,Employee Phone,,,Employee’s home phone number,Phone
+1075838981::150,Store Phone,Column,The store’s phone number,Store Phone,,,The store’s phone number,Phone
+1075838981::156,Movie Title,Column,,Movie Title,,,,MovieTitle
+1075838981::157,Movie Director,Column,Last name of the movie’s director,Movie Director,,,Last name of the movie’s director,MovieDirector
+1075838981::162,Rental Date,Column,The date on which the movie was rented,Rental Date,,,The date on which the movie was rented,RentalDate
+1075838981::163,Due Date,Column,The date on which the  movie is due back to the store,Due Date,,,The date on which the  movie is due back to the store,DueDate
+1075838981::164,Rental Status,Column,Rental status of the movie copy,Rental Status,,,Rental status of the movie copy,RentalStatus
+1075838981::166,Rental Rate,Column,Amount charged for the rental of a movie,Rental Rate,,,Amount charged for the rental of a movie,RentalRate
+1075838981::167,Rental Record Date,Column,The date on which the rental transaction  is recorded,Rental Record Date,,,The date on which the rental transaction  is recorded,MovieRentId
+1075838981::169,General Condition,Column,code identifying the general condition of the copy of the movie,General Condition,,,code identifying the general condition of the copy of the movie,GeneralCondition
+1075838981::170,Movie Format,Column,"Defines the format of the movie copy (i.e VHS\, DVD)",Movie Format,,,"Defines the format of the movie copy (i.e VHS\, DVD)",MovieFormat
+1075838981::171,Movie Copy Id,Column,A unique number  identifying the movie copy,Movie Copy Id,,,A unique number  identifying the movie copy,MovieCopyId
+1075838981::173,Soc Sec Number,Column,Social Security Number,Soc Sec Number,,,Social Security Number,SocSecNumber
+1075838981::174,Hire Date,Column,Employee’s date of hire at the video store,Hire Date,,,Employee’s date of hire at the video store,HireDate
+1075838981::175,Salary,Column,Annual salary paid to the employee,Salary,,,Annual salary paid to the employee,Salary
+1075838981::176,Email,Column,email,Email,,,email,Email
+1075838981::177,Employee Id,Column,A unique number that identifies the store in which the employee works,Employee Id,,,A unique number that identifies the store in which the employee works,EmployeeId
+1075838981::179,Description,Column,A brief description of the movie’s plot or story line,Description,,,A brief description of the movie’s plot or story line,Description
+1075838981::180,Star 1 Name,Column,Last name of the leading star of the movie,Star 1 Name,,,Last name of the leading star of the movie,Star1Name
+1075838981::181,Rating,Column,Rating associated with the movie,Rating,,,Rating associated with the movie,Rating
+1075838981::182,Star 2 Name,Column,Last name of the second leading star of the movie,Star 2 Name,,,Last name of the second leading star of the movie,Star2Name
+1075838981::183,Movie Id,Column,A unique number that identifies a movie,Movie Id,,,A unique number that identifies a movie,MovieId
+1075838981::185,Genre,Column,The genre associated with the movie,Genre,,,The genre associated with the movie,Genre
+1075838981::186,Rental Rate,Column,Amount charged for the rental of a movie,Rental Rate,,,Amount charged for the rental of a movie,RentalRate
+1075838981::187,Movie Url,Column,The location on the internet where the movie clip is stored,Movie Url,,,The location on the internet where the movie clip is stored,MovieUrl
+1075838981::188,Movie Clip,Column,Stored Movie clip,Movie Clip,,,Stored Movie clip,MovieClip
+1075838981::189,Store Id,Column,A unique identifier of the video store,Store Id,,,A unique identifier of the video store,StoreId
+1075838981::215,Movie Id,Column,A unique number that identifies a movie,Movie Id,movie_number,Movie is rented as MovieCopy,A unique number that identifies a movie,MovieId
+1075838981::227,Supervisor,Column,A unique number that identifies the employee,Supervisor,EMP_number,Employee reports to Employee,A unique number that identifies the employee,Supervisor
+1075838981::244,Customer Id,Column,A unique number associated with Customer,Customer Id,,,A unique number associated with Customer,CustomerId
+1075838981::248,Customer First Name,Column,First name of a Customer,Customer First Name,,,First name of a Customer,FirstName
+1075838981::249,Customer Last Name,Column,Last name of a Customer,Customer Last Name,,,Last name of a Customer,LastName
+1075838981::252,Email,Column,The email address associated with a customer,Email,,,The email address associated with a customer,Email
+1075838981::340,Payment Transaction Number,Column,A unique number associated with the payment,Payment Transaction Number,,,A unique number associated with the payment,PaymentId
+1075838981::343,Payment Amount,Column,The amount paid to rent the movie,Payment Amount,,,The amount paid to rent the movie,PaymentAmount
+1075838981::344,Payment Date,Column,The date on which the movie was rented,Payment Date,,,The date on which the movie was rented,PaymentDate
+1075838981::345,Payment Status,Column,The status of the payment,Payment Status,,,The status of the payment,PaymentStatus
+1075838981::355,Employee Id,Column,A unique number that identifies the employee,Employee Id,EMP_number,Employee receives Payment,A unique number that identifies the employee,EmployeeId
+1075838981::367,Payment Transaction Number,Column,A unique number associated with the payment,Payment Transaction Number,paymentId,Payment is made on MovieRent,A unique number associated with the payment,PaymentId
+1075838981::747,Address Id,Column,,Address Id,,,,AddressId
+1075838981::749,Address One,Column,,Address One,,,,AddressOne
+1075838981::750,Address Two,Column,,Address Two,,,,AddressTwo
+1075838981::754,State Id,Column,,State Id,,,,StateId
+1075838981::756,State Name,Column,,State Name,,,,StateName
+1075838981::760,City Id,Column,,City Id,,,,CityId
+1075838981::762,City Name,Column,,City Name,,,,CityName
+1075838981::764,Zipcode,Column,,Zipcode,,,,ZipCode
+1075838981::798,State Id,Column,,State Id,stateId,FK_State_City (State to City),,StateId
+1075838981::802,City Id,Column,,City Id,cityId,FK_City_Address (City to Address),,CityId
+1075838981::808,Address Id,Column,,Address Id,AddressId,FK_Address_Customer (Address to Customer),,AddressId
+1075838981::815,Payment Method Id,Column,,Payment Method Id,,,,PaymentMethodId
+1075838981::817,Type,Column,,Type,,,,Type
+1075838981::820,Customer Id,Column,A unique number associated with Customer,Customer Id,CUST_number,FK_Customer_PaymentMethod (Customer to PaymentMethod),A unique number associated with Customer,CustNumber
+1075838981::834,Payment Method Id,Column,,Payment Method Id,paymentMethodId,R_29 (PaymentMethod to CreditCard),,PaymentMethodId
+1075838981::840,Payment Method Id,Column,,Payment Method Id,paymentMethodId,R_30 (PaymentMethod to Check),,PaymentMethodId
+1075838981::846,Payment Method Id,Column,,Payment Method Id,paymentMethodId,R_31 (PaymentMethod to Epay),,PaymentMethodId
+1075838981::850,Credit Card Number,Column,,Credit Card Number,,,,CreditCardNumber
+1075838981::851,Expiration Date,Column,,Expiration Date,,,,ExpirationDate
+1075838981::852,Credit Card Type,Column,,Credit Card Type,,,,CreditCardType
+1075838981::853,Account Numer,Column,,Account Numer,,,,AccountNumer
+1075838981::854,Routing Number,Column,,Routing Number,,,,RoutingNumber
+1075838981::855,Vendor Number,Column,,Vendor Number,,,,VendorNumber
+1075838981::856,Account Number,Column,,Account Number,,,,AccountNumber
+1075838981::875,Payment Method Id,Column,,Payment Method Id,paymentMethodId,R_33 (PaymentMethod to Payment),,PaymentMethodId
+1075838981::884,Director Id,Column,,Director Id,,,,DirectorId
+1075838981::886,Firstname,Column,,Firstname,,,,FirstName
+1075838981::887,Lastname,Column,,Lastname,,,,LastName
+1075838981::888,Actor Id,Column,,Actor Id,,,,ActorId
+1075838981::890,Firstname,Column,,Firstname,,,,FirstName
+1075838981::891,Lastname,Column,,Lastname,,,,LastName
+1075838981::897,Movie Id,Column,A unique number that identifies a movie,Movie Id,movie_number,R_35 (Movie to Cast),A unique number that identifies a movie,MovieNumber
+1075838981::902,Actor Id,Column,,Actor Id,actorId,R_36 (Actor to Cast),,ActorId
+1075838981::920,Director Id,Column,,Director Id,directorId,R_37 (Director to Movie),,DirectorId
+1075838981::925,Store Id,Column,A unique identifier of the video store,Store Id,store_number,R_38 (Store to MovieCopy),A unique identifier of the video store,StoreId
+1075838981::955,Movie Copy Id,Column,A unique number  identifying the movie copy,Movie Copy Id,movieCopyId,R_41 (MovieCopy to MovieRent),A unique number  identifying the movie copy,MovieCopyId
+1075838981::967,Address Id,Column,,Address Id,AddressId,R_43 (Address to Store),,AddressId
+1075838981::972,Employee Id,Column,A unique number that identifies the store in which the employee works,Employee Id,EMP_number,R_44 (Employee to Store),A unique number that identifies the store in which the employee works,StoreManager
+1075838981::980,Address Id,Column,,Address Id,AddressId,R_45 (Address to Employee),,AddressId
