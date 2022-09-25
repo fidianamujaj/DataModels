@@ -1,27 +1,28 @@
-ERwin Property Ids,1075850516::User Formatted Name  [read only],0::Object Type  [read only],1073742125::Definition,1073742126::Name,1075849148::Comments,1075849176::Physical Name,1075849763::Parent Entity  [read only],1075849764::Child Entity  [read only],1075850516::User Formatted Name  [read only]
-1075839016::213,Movie is rented as MovieCopy,Relationship,,FK_Movie_MovieCopy,Movie has copies,FK_Movie_MovieCopy,Movie,MovieCopy,Movie has copies
-1075839016::225,Employee reports to Employee,Relationship,,FK_Employee_Employee,Employee reports to Supervisor,FK_Employee_Employee,Employee,Employee,Employee reports to Supervisor
-1075839016::282,FK_Customer_Invoice_CUST (Customer to CUSTOMER_INVOICE),Relationship,,FK_Customer_CUSTOMER_INVOICE,FK_Customer_Invoice_CUST (Customer to CUSTOMER_INVOICE),FK_Customer_CUSTOMER_INVOICE,Customer,CUSTOMER_INVOICE,FK_Customer_Invoice_CUST (Customer to CUSTOMER_INVOICE)
-1075839016::291,FK_Customer_Invoice_MO RENT REC (MovieRent to CUSTOMER_INVOICE),Relationship,,FK_MovieRent_CUSTOMER_INVOICE,FK_Customer_Invoice_MO RENT REC (MovieRent to CUSTOMER_INVOICE),FK_MovieRent_CUSTOMER_INVOICE,MovieRent,CUSTOMER_INVOICE,FK_Customer_Invoice_MO RENT REC (MovieRent to CUSTOMER_INVOICE)
-1075839016::300,FK_Customer_Invoice_MOVIE (Movie to CUSTOMER_INVOICE),Relationship,,FK_Movie_OVERDUE_NOTICE,FK_Customer_Invoice_MOVIE (Movie to CUSTOMER_INVOICE),FK_Movie_OVERDUE_NOTICE,Movie,CUSTOMER_INVOICE,FK_Customer_Invoice_MOVIE (Movie to CUSTOMER_INVOICE)
-1075839016::307,FK_Overdue_Notice_CUST (Customer to OVERDUE_NOTICE),Relationship,,FK_Customer_OVERDUE_NOTICE,FK_Overdue_Notice_CUST (Customer to OVERDUE_NOTICE),FK_Customer_OVERDUE_NOTICE,Customer,OVERDUE_NOTICE,FK_Overdue_Notice_CUST (Customer to OVERDUE_NOTICE)
-1075839016::316,FK_Overdue_Notice_MO RENT REC (MovieRent to OVERDUE_NOTICE),Relationship,,FK_MovieRent_CUSTOMER_NOTICE,FK_Overdue_Notice_MO RENT REC (MovieRent to OVERDUE_NOTICE),FK_MovieRent_CUSTOMER_NOTICE,MovieRent,OVERDUE_NOTICE,FK_Overdue_Notice_MO RENT REC (MovieRent to OVERDUE_NOTICE)
-1075839016::353,Employee receives Payment,Relationship,,FK_Employee_Payment,Employee registers the payment,FK_Employee_Payment,Employee,Payment,Employee registers the payment
-1075839016::365,Payment is made on MovieRent,Relationship,,FK_Payment_MovieRent,Payment is made on MovieRent,FK_Payment_MovieRent,Payment,MovieRent,Payment is made on MovieRent
-1075839016::796,R/25 (State to City),Relationship,,FK_State_City,State has cities,FK_State_City,State,City,State has cities
-1075839016::800,R/26 (City to Address),Relationship,,FK_City_Address,City has addresses,FK_City_Address,City,Address,City has addresses
-1075839016::806,R/27 (Address to Customer),Relationship,,FK_Address_Customer,Address belongs to a Customer,FK_Address_Customer,Address,Customer,Address belongs to a Customer
-1075839016::818,R/28 (Customer to PaymentMethod),Relationship,,FK_Customer_PaymentMethod,Customer has a payment method,FK_Customer_PaymentMethod,Customer,PaymentMethod,Customer has a payment method
-1075839016::832,R/29 (PaymentMethod to CreditCard),Relationship,,FK_PaymentMethod_CreditCard,Payment method is a credit card,FK_PaymentMethod_CreditCard,PaymentMethod,CreditCard,Payment method is a credit card
-1075839016::838,R/30 (PaymentMethod to Check),Relationship,,FK_PaymentMethod_Check,Payment method is a check,FK_PaymentMethod_Check,PaymentMethod,Check,Payment method is a check
-1075839016::844,R/31 (PaymentMethod to Epay),Relationship,,FK_PaymentMethod_Epay,Payment method is epay,FK_PaymentMethod_Epay,PaymentMethod,Epay,Payment method is epay
-1075839016::873,R/33 (PaymentMethod to Payment),Relationship,,FK_PaymentMethod_Payment,Payment method is amethod of payment,FK_PaymentMethod_Payment,PaymentMethod,Payment,Payment method is amethod of payment
-1075839016::892,R/34 (Movie to Actor),Relationship,,FK_Movie_Actor,Movie has actors,FK_Movie_Actor,Movie,Actor,Movie has actors
-1075839016::895,R/35 (Movie to Cast),Relationship,,FK_Movie_Cast,Movie has cast,FK_Movie_Cast,Movie,Cast,Movie has cast
-1075839016::900,R/36 (Actor to Cast),Relationship,,FK_Actor_Cast,Actor is part of cast,FK_Actor_Cast,Actor,Cast,Actor is part of cast
-1075839016::918,R/37 (Director to Movie),Relationship,,FK_Director_Movie,Director directs movies,FK_Director_Movie,Director,Movie,Director directs movies
-1075839016::923,R/38 (Store to MovieCopy),Relationship,,FK_Store_MovieCopy,Store has copies of a movie,FK_Store_MovieCopy,Store,MovieCopy,Store has copies of a movie
-1075839016::953,R/41 (MovieCopy to MovieRent),Relationship,,FK_MovieCopy_MovieRent,Copies of a movie can be rented,FK_MovieCopy_MovieRent,MovieCopy,MovieRent,Copies of a movie can be rented
-1075839016::965,R/43 (Address to Store),Relationship,,FK_Address_Store,Address belongs to a Store,FK_Address_Store,Address,Store,Address belongs to a Store
-1075839016::970,R/44 (Employee to Store),Relationship,,FK_Employee_Store,Employee works in a store,FK_Employee_Store,Employee,Store,Employee works in a store
-1075839016::978,R/45 (Address to Employee),Relationship,,FK_Address_Employee,Address belongs to an employee,FK_Address_Employee,Address,Employee,Address belongs to an employee
+ERwin Property Ids,1075850516::User Formatted Name  [read only],0::Object Type  [read only],1073742125::Definition,1075849176::Physical Name,1075849763::Parent Entity  [read only],1075849764::Child Entity  [read only]
+1075839016::213,Movie is rented as MovieCopy,Relationship,,FK_MovieCopy_Movie,Movie,MovieCopy
+1075839016::225,Employee reports to Employee,Relationship,,FK_Employee_Employee,Employee,Employee
+1075839016::282,FK_Customer_CUSTOMER_INVOICE (Customer to CUSTOMER_INVOICE),Relationship,,FK_CUSTOMER_INVOICE_Customer,Customer,CUSTOMER_INVOICE
+1075839016::291,FK_MovieRent_CUSTOMER_INVOICE (MovieRent to CUSTOMER_INVOICE),Relationship,,FK_CUSTOMER_INVOICE_MovieRent,MovieRent,CUSTOMER_INVOICE
+1075839016::300,FK_Movie_OVERDUE_NOTICE (Movie to CUSTOMER_INVOICE),Relationship,,FK_CUSTOMER_INVOICE_Movie,Movie,CUSTOMER_INVOICE
+1075839016::307,FK_Customer_OVERDUE_NOTICE (Customer to OVERDUE_NOTICE),Relationship,,FK_OVERDUE_NOTICE_Customer,Customer,OVERDUE_NOTICE
+1075839016::316,FK_MovieRent_CUSTOMER_NOTICE (MovieRent to OVERDUE_NOTICE),Relationship,,FK_OVERDUE_NOTICE_MovieRent,MovieRent,OVERDUE_NOTICE
+1075839016::353,Employee receives Payment,Relationship,,FK_Payment_Employee,Employee,Payment
+1075839016::365,Payment is made on MovieRent,Relationship,,FK_MovieRent_Payment,Payment,MovieRent
+1075839016::796,FK_State_City (State to City),Relationship,,FK_City_State,State,City
+1075839016::800,FK_City_Address (City to Address),Relationship,,FK_Address_City,City,Address
+1075839016::806,FK_Address_Customer (Address to Customer),Relationship,,FK_Customer_Address,Address,Customer
+1075839016::892,FK_Movie_Actor (Movie to Actor),Relationship,,FK_Actor_Movie,Movie,Actor
+1075839016::895,FK_Movie_Cast (Movie to Cast),Relationship,,FK_Cast_Movie,Movie,Cast
+1075839016::900,FK_Actor_Cast (Actor to Cast),Relationship,,FK_Cast_Actor,Actor,Cast
+1075839016::918,FK_Director_Movie (Director to Movie),Relationship,,FK_Movie_Director,Director,Movie
+1075839016::923,FK_Store_MovieCopy (Store to MovieCopy),Relationship,,FK_MovieCopy_Store,Store,MovieCopy
+1075839016::953,FK_MovieCopy_MovieRent (MovieCopy to MovieRent),Relationship,,FK_MovieRent_MovieCopy,MovieCopy,MovieRent
+1075839016::965,FK_Address_Store (Address to Store),Relationship,,FK_Store_Address,Address,Store
+1075839016::970,FK_Employee_Store (Employee to Store),Relationship,,FK_Store_Employee,Employee,Store
+1075839016::978,FK_Address_Employee (Address to Employee),Relationship,,FK_Employee_Address,Address,Employee
+1075839016::1082,Payment R/46 CreditCard,Relationship,,FK_CreditCard_Payment,Payment,CreditCard
+1075839016::1105,Payment R/47 Check,Relationship,,FK_Check_Payment,Payment,Check
+1075839016::1122,Payment R/48 Epay,Relationship,,FK_Epay_Payment,Payment,Epay
+1075839016::1151,R/50 (Payment to Subscription),Relationship,,FK_Subscription_Payment,Payment,Subscription
+1075839016::1156,R/51 (Customer to Payment),Relationship,,FK_Payment_Customer,Customer,Payment
+1075839016::1170,R/53 (Subscription to Movie),Relationship,,FK_Movie_Subscription,Subscription,Movie
