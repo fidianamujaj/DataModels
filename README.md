@@ -3,11 +3,11 @@ Data models created, altered and modernized in my __CSCI381: Data Modeling__ cla
 
 ## Documentation
 
-The following sections show a modernized and naturalized version of eMovies. The entity and attribute names have been case standardized. Aditionally, they have been updated, removed or added from the initial eMovies model to result in a better, modernized model.
+The following sections show a modernized and naturalized version of eMovies to eStreaming. The entity and attribute names have been case standardized. Aditionally, they have been updated, removed or added from the initial eMovies model to result in the ability of a customer to subscribe to movies.
 
 ### Additions
 
-* Payment Method
+* Subscription
 * Credit Card
 * Check
 * Epay
@@ -25,22 +25,22 @@ The following sections show a modernized and naturalized version of eMovies. The
 ### Deletions
 
 - Cust_Credit (No longer necessary since incorportated payment method)
+- PaymentMethod that was earlier added. In the updated version I used a discriminant attribute in the Payment table instead of a PaymentMethod table.
 
 # Final Models
 
 ## Conceptual Model
 
-![ConceptualModel](https://user-images.githubusercontent.com/27741728/191641088-41df458e-af8d-42fd-8d08-6c1d2281ac29.PNG)
-
+![ConceptualModelUpdated](https://user-images.githubusercontent.com/27741728/192130820-943fd198-3aec-49d4-86f0-98b0cf416a58.PNG)
 
 ## Logical Model
 
-![LogicalModel](https://user-images.githubusercontent.com/27741728/191641109-67d1682e-d24a-434b-8d30-1729fbd98de2.PNG)
-
+![LogicalModelUpdated](https://user-images.githubusercontent.com/27741728/192130825-7680defd-2a68-4d84-87af-7f4deb5a76cd.PNG)
 
 ## Physical Model
 
-![PhysicalModel](https://user-images.githubusercontent.com/27741728/191641130-39b966d8-d340-4e24-94ca-1052c4974bb5.PNG)
+![PhysicalModelUpdated](https://user-images.githubusercontent.com/27741728/192130830-3d1cd9bf-6f96-4207-b138-75ce86f6bffd.PNG)
+
 
 
 
